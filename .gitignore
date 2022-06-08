@@ -3,6 +3,7 @@
 /.vscode/
 
 /dist/
+/docs/
 /node_modules/
 
 *.d.ts
