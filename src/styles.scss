@@ -1,0 +1,30 @@
+* {
+    appearance: none;
+    background: none transparent;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    text-decoration: inherit;
+}
+button {
+    background-color: #ccc;
+    border-radius: 8px;
+    padding: 0 16px;
+    margin: 0 4px 0 0;
+    &:last-child {
+        margin: 0;
+    }
+}
+body {
+    font: 16px/24px monospace;
+    padding: 8px;
+}
+h1 {
+    font: bold 24px/32px monospace;
+}
+a {
+    color: #36f;
+}

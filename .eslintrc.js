@@ -32,7 +32,7 @@ module.exports = {
     extends: [
         // "eslint:all",
         "eslint:recommended",
-        "plugin:import/recommended",
+        // "plugin:import/recommended",
         // "plugin:jest/recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier",
@@ -68,6 +68,7 @@ module.exports = {
         "no-console": "off",
 
         "import/named": "off",
+        "import/unresolve": "off",
 
         // "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
         "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
